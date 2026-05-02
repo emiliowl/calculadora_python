@@ -1,4 +1,4 @@
-from calculator_core import soma, subtracao, multiplicacao, divisao, exponenciacao, radiciacao
+from calculator_core import soma, subtracao, multiplicacao, divisao, exponenciacao, radiciacao, fatorial
 
 def test_soma():
     assert soma(1,1) == 2
@@ -17,3 +17,6 @@ def test_exponenciacao():
 
 def test_radiciacao():
     assert radiciacao(81, 2) == 9
+
+def test_fatorial():
+    assert fatorial(3) == 6
